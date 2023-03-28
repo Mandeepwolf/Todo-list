@@ -1,0 +1,51 @@
+<!--A simple TODO list using HTML,CSS and JS-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="Cs.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body class="body1">
+    <!--Background video--> 
+    <video autoplay muted loop id="myVideo">
+        <source src="No copyright Lofi animation Background loop visual loop.mp4" type="video/mp4" id="source1">
+        <source src="Beautiful scene in anime [FHD].mp4" type="video/mp4" id="source2">
+        
+      </video>
+      
+      
+    <div class="mainbox container-fluid">
+        <div class="content">
+            <div class="container c1">
+                <h1>TODO APP</h1>
+                <div >
+                    <div class="nmode">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                      <label for="checkbox" class="label">
+                        <i class="bi bi-sun-fill"></i>
+                        <i class="bi bi-moon-stars-fill"></i>
+                        
+                        <div class='ball'>
+                      </label>
+                    </div>
+                </div>   
+                <h2 class="text2">Now accomplish your tasks with full focus.</h2>
+               
+                <input type="text" placeholder="Add New Task" id="input-task">
+                <button onclick="addTask()">Add</button>
+                <ul id="task-list" class="text1">                   
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Main.js"></script>
+
+</body>
+</html>
+

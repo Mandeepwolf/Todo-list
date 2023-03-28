@@ -1,0 +1,191 @@
+.mainbox{
+    position: relative;
+    margin-left: 20%;
+}
+.content {
+    position: relative;
+    
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 76%;
+    
+    padding: 20px;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 0px;
+    margin-top: 0%;
+    
+
+  }
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 127%;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 35px;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+ .text11{
+    color: #f8f8f8;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-left: 35px;
+    font-size: 30px;
+    padding-top: 0%;
+    margin-bottom: 30px;
+}
+.text2{
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-left: 35px;
+    font-size: 30px;
+    padding-top: 0%;
+    margin-bottom: 30px;
+    color: #8A2BE2;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: white !important;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 40px;
+    margin-left: 35px;
+    background-color: rgba(7, 7, 7, 0.6969);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f75;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.lic {
+    
+    padding: 10px;
+    margin-top: 10px;
+    margin-right:40px;
+    font-size: 18px;
+    background-color: #9370DB;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nmode {
+    float:right;
+    margin-right: 20px;;
+}
+
+.remove-task {
+    background-color:#FF0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+body {
+    transition: background 0.2s linear;
+  }
+.dark {
+    
+  }
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+  
+  .bi-moon-stars-fill {
+    color: rgb(250, 0, 237);
+  }
+  
+  .bi-sun-fill {
+    color: yellow;
+  }
+
+
+  .lic1{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
